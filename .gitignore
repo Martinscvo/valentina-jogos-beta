@@ -1,0 +1,19 @@
+# ROMs — não versionar jogos (direitos autorais)
+*.smc
+*.sfc
+*.fig
+jogos/
+roms/
+
+# Arquivos do emulador baixados pelo script (recriados com baixar_emulador.py)
+emulatorjs-data/
+
+# Outros arquivos que podem estar na pasta e não fazem parte do projeto
+*.zip
+docs/
+rominfo.txt
+zsnesw.exe
+
+# Diversos
+.DS_Store
+Thumbs.db

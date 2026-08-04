@@ -1,0 +1,7 @@
+This is the info for the last game you ran.
+
+File: Mortal Kombat (E) (Blood Patch Hack).zip Header: Yes
+MORTAL KOMBAT             TYPE:NORMAL   
+INTERLEAVED:No               CHKSUM:FAIL
+VIDEO:PAL     BANK:Lo     CRC32:47ED98EC
+BAD ROM                                 
