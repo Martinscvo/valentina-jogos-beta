@@ -347,7 +347,7 @@
     overflow:hidden;
   }
   .cart-file{
-    font-size:11.5px;
+    font-size:14px;
     font-family:'Space Grotesk', monospace;
     color:var(--cream-dim);
     line-height:1.35;
@@ -374,7 +374,7 @@
   footer{
     max-width:760px;
     margin:44px auto 0;
-    font-size:12.5px;
+    font-size:15.5px;
     line-height:1.7;
     color:var(--cream-dim);
     border-top:1px solid rgba(255,255,255,.1);
@@ -434,7 +434,7 @@
 </div>
 
 <div class="shelf-wrap">
-  <div class="shelf-label pixel" style="font-size:19px;">Coleção · 25 cartuchos</div>
+  <div class="shelf-label pixel" style="font-size:19px;">Coleção · 143 cartuchos</div>
   <div class="shelf" id="shelf"></div>
 </div>
 
@@ -469,7 +469,8 @@
     bomb:  '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="11" cy="14" r="7"/><path d="M14 7l2-3 2 1-1.5 2.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="17" cy="4.5" r="1.3"/></svg>',
     flag:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M6 3v18"/><path d="M6 4h12l-3 4 3 4H6z" fill="currentColor" stroke="none"/></svg>',
     football:'<svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="12" cy="12" rx="9" ry="5.5" transform="rotate(-20 12 12)"/></svg>',
-    basketball:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 4 3 14 0 18M12 3c-3 4-3 14 0 18M4.5 6.5c4 3 11 3 15 0M4.5 17.5c4-3 11-3 15 0"/></svg>'
+    basketball:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 4 3 14 0 18M12 3c-3 4-3 14 0 18M4.5 6.5c4 3 11 3 15 0M4.5 17.5c4-3 11-3 15 0"/></svg>',
+    sword: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 3l6.5 6.5-9 9-3-3 9-9z"/><path d="M12 12l-7 7M5 19l-2 2M8 16l-3 1 1-3"/></svg>'
   };
 
   // ---- coleção (dados descritivos, sem imagens protegidas) ----
@@ -499,6 +500,124 @@
     { file:'Super Mario World (USA).smc',                                    title:'Super Mario World',                          genre:'Plataforma', icon:'star',       hue:'#c0c04a' },
     { file:"Super_Mario_World_2_-_Yoshi's_Island_(E).smc",                   title:"Yoshi's Island",                             genre:'Plataforma', icon:'star',       hue:'#7ac04a' },
     { file:'Top Gear 2.smc',                                                 title:'Top Gear 2',                                 genre:'Corrida',    icon:'flag',       hue:'#4a4ac0' },
+    { file:'Alcahest (BR) v0.99.smc', title:'Alcahest', genre:'RPG', icon:'scroll', hue:'#c0554a' },
+    { file:'Animaniacs (U) [T+Por].smc', title:'Animaniacs', genre:'Plataforma', icon:'star', hue:'#4a7fc0' },
+    { file:'Battletoads And Double Dragons.smc', title:'Battletoads And Double Dragons', genre:'Ação', icon:'sword', hue:'#c0a24a' },
+    { file:'Biker Mice From Mars (U) [T+Por].smc', title:'Biker Mice From Mars', genre:'Ação', icon:'sword', hue:'#4ac09a' },
+    { file:'Bishoujo Senshi Sailor Moon R (J).smc', title:'Bishoujo Senshi Sailor Moon R', genre:'Ação', icon:'sword', hue:'#7a4ac0' },
+    { file:'Blackthorne.smc', title:'Blackthorne', genre:'Ação', icon:'sword', hue:'#c04a94' },
+    { file:'Bobby\'s World.smc', title:'Bobby\'s World', genre:'Plataforma', icon:'star', hue:'#4aa8c0' },
+    { file:'Brain Lord (U) [T+Por].smc', title:'Brain Lord', genre:'RPG', icon:'scroll', hue:'#5ac04a' },
+    { file:'Brandish (BR) v1.00.smc', title:'Brandish', genre:'RPG', icon:'scroll', hue:'#c0794a' },
+    { file:'Breath of Fire (BR) v1.10.smc', title:'Breath of Fire', genre:'RPG', icon:'scroll', hue:'#9a4a4a' },
+    { file:'Captain America and The Avengers.smc', title:'Captain America and The Avengers', genre:'Ação', icon:'sword', hue:'#4a6ac0' },
+    { file:'Captain Commando (U.smc', title:'Captain Commando', genre:'Ação', icon:'sword', hue:'#c0704a' },
+    { file:'Captain Tsubasa V - Hasha no Shougou Campione.smc', title:'Captain Tsubasa V - Hasha no Shougou Campione', genre:'Esporte', icon:'soccer', hue:'#7a9a4a' },
+    { file:'Choplifter III.smc', title:'Choplifter III', genre:'Ação', icon:'sword', hue:'#4a9a5c' },
+    { file:'Chrono Trigger (U) [T+Por].smc', title:'Chrono Trigger', genre:'RPG', icon:'scroll', hue:'#c0b84a' },
+    { file:'Clock_Tower_(J).smc', title:'Clock Tower', genre:'Aventura', icon:'ninja', hue:'#4aa06a' },
+    { file:'Cool Spot (US).smc', title:'Cool Spot', genre:'Ação', icon:'sword', hue:'#6a4a2a' },
+    { file:'Cutthroat Island (U).smc', title:'Cutthroat Island', genre:'Ação', icon:'sword', hue:'#4a9a8c' },
+    { file:'Cybernator (U) [T+Por].smc', title:'Cybernator', genre:'Ação', icon:'sword', hue:'#c04a4a' },
+    { file:'Daffy Duck Marv Miss.smc', title:'Daffy Duck: The Marvin Missions', genre:'Plataforma', icon:'star', hue:'#4ac06a' },
+    { file:'Daze_Before_Christmas_(E).smc', title:'Daze Before Christmas', genre:'Ação', icon:'sword', hue:'#c0c04a' },
+    { file:'Demolition Man (U).smc', title:'Demolition Man', genre:'Ação', icon:'sword', hue:'#7ac04a' },
+    { file:'Demon\'s Crest (U) [T+Por].smc', title:'Demon\'s Crest', genre:'Ação', icon:'sword', hue:'#4a4ac0' },
+    { file:'Donkey Kong Country 2 (Diddy\'s Kong Quest) (BR).smc', title:'Donkey Kong Country 2', genre:'Plataforma', icon:'banana', hue:'#8b5cf6' },
+    { file:'Dragon - The Bruce Lee Story (US).smc', title:'Dragon - The Bruce Lee Story', genre:'Ação', icon:'sword', hue:'#e0609e' },
+    { file:'Dragon Ball Z - Dragon_Ball_Z_-_A_lenda_dos_sayaji.smc', title:'Dragon Ball Z - A Lenda dos Saiyajins', genre:'Luta', icon:'claw', hue:'#8fc93a' },
+    { file:'Dragon Ball Z - Hyper Dimension (J) [T+Por].smc', title:'Dragon Ball Z - Hyper Dimension', genre:'Luta', icon:'claw', hue:'#3ac9c9' },
+    { file:'Dragon Ball Z - Super Butouden (F) [T+Por].smc', title:'Dragon Ball Z - Super Butouden', genre:'Luta', icon:'claw', hue:'#c93ae0' },
+    { file:'Dragon Ball Z - Ultime Menace (F) [T+Por].smc', title:'Dragon Ball Z - Ultime Menace', genre:'Luta', icon:'claw', hue:'#3fbfa0' },
+    { file:'Dragon_quest_I_e_II.smc', title:'Dragon Quest I e II', genre:'RPG', icon:'scroll', hue:'#e08a3c' },
+    { file:'E.V.O. Search for Eden (U) [T+Por].smc', title:'E.V.O. Search for Eden', genre:'RPG', icon:'scroll', hue:'#c0554a' },
+    { file:'Final Fantasy II (U) (V1.1) [T+Por].smc', title:'Final Fantasy II', genre:'RPG', icon:'scroll', hue:'#4a7fc0' },
+    { file:'Final Fantasy III (U) (V1.0) [T+Por].smc', title:'Final Fantasy III', genre:'RPG', icon:'scroll', hue:'#c0a24a' },
+    { file:'Final Fantasy V (J) [T+Por].smc', title:'Final Fantasy V', genre:'RPG', icon:'scroll', hue:'#4ac09a' },
+    { file:'Final Fight (U) [T+Por].smc', title:'Final Fight', genre:'Ação', icon:'sword', hue:'#7a4ac0' },
+    { file:'Final Fight Guy (BR) v0.98.smc', title:'Final Fight Guy', genre:'Ação', icon:'sword', hue:'#c04a94' },
+    { file:'Futebol Brasileiro \'96 (Unl).smc', title:'Futebol Brasileiro \'96', genre:'Esporte', icon:'soccer', hue:'#4aa8c0' },
+    { file:'Ganpuru - Gunman\'s Proof.smc', title:'Ganpuru - Gunman\'s Proof', genre:'Ação', icon:'sword', hue:'#5ac04a' },
+    { file:'Go Go Ackman (J) [T+Por].smc', title:'Go Go Ackman', genre:'Ação', icon:'ninja', hue:'#c0794a' },
+    { file:'Goof Troop (U) [T+Por][f1].smc', title:'Goof Troop', genre:'Plataforma', icon:'star', hue:'#9a4a4a' },
+    { file:'Gundam Wing - Endless Duel  (J).smc', title:'Gundam Wing - Endless Duel', genre:'Ação sci-fi', icon:'rocket', hue:'#4a6ac0' },
+    { file:'Hamelin no Violin Hiki.smc', title:'Hamelin no Violin Hiki', genre:'Ação', icon:'sword', hue:'#c0704a' },
+    { file:'Harvest Moon (U) [T+Por].smc', title:'Harvest Moon', genre:'Simulação', icon:'star', hue:'#7a9a4a' },
+    { file:'Hyper Volleyball.smc', title:'Hyper Volleyball', genre:'Esporte', icon:'basketball', hue:'#4a9a5c' },
+    { file:'Inspector Gadget (U).smc', title:'Inspector Gadget', genre:'Ação', icon:'sword', hue:'#c0b84a' },
+    { file:'International Super Star Soccer Deluxe - Futebol Brasileiro 2007 (BR) v1.00.smc', title:'International Super Star Soccer Deluxe - Futebol Brasileiro 2007', genre:'Esporte', icon:'soccer', hue:'#4aa06a' },
+    { file:'International Super Star Soccer Deluxe - Ronaldinho Soccer 97 (BR) v1.00.smc', title:'International Super Star Soccer Deluxe - Ronaldinho Soccer 97', genre:'Esporte', icon:'soccer', hue:'#6a4a2a' },
+    { file:'Jurassic Park 2 (E)[PORT].smc', title:'Jurassic Park 2', genre:'Ação', icon:'sword', hue:'#4a9a8c' },
+    { file:'Kendo Rage (U).smc', title:'Kendo Rage', genre:'Ação', icon:'sword', hue:'#c04a4a' },
+    { file:'Killer Instinct (E) [!][T-BR] {T-BrunoX}{2002}.smc', title:'Killer Instinct', genre:'Luta', icon:'claw', hue:'#4ac06a' },
+    { file:'King Arthur - [BR].smc', title:'King Arthur', genre:'Ação', icon:'sword', hue:'#c0c04a' },
+    { file:'King Arthur\'s World (Beta) [T+Por].smc', title:'King Arthur\'s World', genre:'Ação', icon:'sword', hue:'#7ac04a' },
+    { file:'Knights of the Round (USA).smc', title:'Knights of the Round', genre:'Ação', icon:'sword', hue:'#4a4ac0' },
+    { file:'Lamborghini - American Challenge (E) [!].smc', title:'Lamborghini - American Challenge', genre:'Corrida', icon:'flag', hue:'#8b5cf6' },
+    { file:'lemmings [E][port].smc', title:'Lemmings', genre:'Puzzle', icon:'ball', hue:'#e0609e' },
+    { file:'Magic Knight Rayearth (J) [T+Por].smc', title:'Magic Knight Rayearth', genre:'RPG', icon:'scroll', hue:'#8fc93a' },
+    { file:'Megaman X (U) [T+Por].smc', title:'Megaman X', genre:'Ação', icon:'bolt', hue:'#3ac9c9' },
+    { file:'Megaman X2 (U) [T+Por].smc', title:'Megaman X2', genre:'Ação', icon:'bolt', hue:'#c93ae0' },
+    { file:'Megaman X3 (U) [T+Por].smc', title:'Megaman X3', genre:'Ação', icon:'bolt', hue:'#3fbfa0' },
+    { file:'Metal Warriors (U) [T+Por100].smc', title:'Metal Warriors', genre:'Ação sci-fi', icon:'rocket', hue:'#e08a3c' },
+    { file:'Mickey & Minnie - The Great Circus Mistery.smc', title:'Mickey & Minnie - The Great Circus Mistery', genre:'Plataforma', icon:'star', hue:'#c0554a' },
+    { file:'Mickey Mania (E) [T+Por].smc', title:'Mickey Mania', genre:'Plataforma', icon:'star', hue:'#4a7fc0' },
+    { file:'Mickey Mouse - The Magical Quest.smc', title:'Mickey Mouse - The Magical Quest', genre:'Plataforma', icon:'star', hue:'#c0a24a' },
+    { file:'Monstania (J) [T+Por].smc', title:'Monstania', genre:'RPG', icon:'scroll', hue:'#4ac09a' },
+    { file:'Mortal Kombat (E) (Blood Patch Hack).smc', title:'Mortal Kombat', genre:'Luta', icon:'claw', hue:'#7a4ac0' },
+    { file:'Mortal Kombat 3 PT BR.smc', title:'Mortal Kombat 3', genre:'Luta', icon:'claw', hue:'#c04a94' },
+    { file:'NBA Live \'95 (U) [T+Por].smc', title:'NBA Live \'95', genre:'Esporte', icon:'basketball', hue:'#4aa8c0' },
+    { file:'Ninja Gaiden Trilogy (U) [T+Por].smc', title:'Ninja Gaiden Trilogy', genre:'Ação', icon:'ninja', hue:'#5ac04a' },
+    { file:'Ogre Battle - The March of the Black Queen (U) [!].smc', title:'Ogre Battle - The March of the Black Queen', genre:'RPG', icon:'scroll', hue:'#c0794a' },
+    { file:'Panic in Nakayoshi World (J) [T+Por].smc', title:'Panic in Nakayoshi World', genre:'Ação', icon:'sword', hue:'#9a4a4a' },
+    { file:'Prince of Persia (U) [T+Por].smc', title:'Prince of Persia', genre:'Ação', icon:'sword', hue:'#4a6ac0' },
+    { file:'Ranma Nibunnoichi - Akanekodan Teki Hihou (J) [T+Bra111_Hexagon].smc', title:'Ranma Nibunnoichi - Akanekodan Teki Hihou', genre:'Ação', icon:'ninja', hue:'#c0704a' },
+    { file:'Rock N\' Roll Racing (E).smc', title:'Rock N\' Roll Racing', genre:'Corrida', icon:'flag', hue:'#7a9a4a' },
+    { file:'Rockman & Forte (J) [T+Por].smc', title:'Rockman & Forte', genre:'Ação', icon:'bolt', hue:'#4a9a5c' },
+    { file:'Ronaldinho  99.smc', title:'Ronaldinho 99', genre:'Esporte', icon:'soccer', hue:'#c0b84a' },
+    { file:'Ronaldinho Brasileiro 95 .smc', title:'Ronaldinho Brasileiro 95', genre:'Esporte', icon:'soccer', hue:'#4aa06a' },
+    { file:'Ronaldinho Classic World Cup.smc', title:'Ronaldinho Classic World Cup', genre:'Esporte', icon:'soccer', hue:'#6a4a2a' },
+    { file:'Ronaldinho Soccer  96 (Unl).smc', title:'Ronaldinho Soccer 96', genre:'Esporte', icon:'soccer', hue:'#4a9a8c' },
+    { file:'Ronaldinho Soccer 98 (Hack).smc', title:'Ronaldinho Soccer 98', genre:'Esporte', icon:'soccer', hue:'#c04a4a' },
+    { file:'Scooby-Doo.smc', title:'Scooby-Doo', genre:'Plataforma', icon:'star', hue:'#4ac06a' },
+    { file:'Secret of Mana (U) [T+Por].smc', title:'Secret of Mana', genre:'RPG', icon:'scroll', hue:'#c0c04a' },
+    { file:'Secret of the Stars (U) [T+Por].smc', title:'Secret of the Stars', genre:'RPG', icon:'scroll', hue:'#7ac04a' },
+    { file:'Seiken_densetsu_3_br.smc', title:'Seiken Densetsu 3', genre:'RPG', icon:'scroll', hue:'#4a4ac0' },
+    { file:'Sim City.smc', title:'Sim City', genre:'Simulação', icon:'star', hue:'#8b5cf6' },
+    { file:'Sky Blazer (U).smc', title:'Sky Blazer', genre:'Ação', icon:'sword', hue:'#e0609e' },
+    { file:'Snoopy Concert (J).smc', title:'Snoopy Concert', genre:'Plataforma', icon:'star', hue:'#8fc93a' },
+    { file:'Soldiers of Fortune -A.smc', title:'Soldiers of Fortune', genre:'Ação', icon:'sword', hue:'#3ac9c9' },
+    { file:'Sonic.smc', title:'Sonic', genre:'Plataforma', icon:'star', hue:'#c93ae0' },
+    { file:'Space Ace (U) [T+Por].smc', title:'Space Ace', genre:'Ação', icon:'sword', hue:'#3fbfa0' },
+    { file:'Spawn (US).smc', title:'Spawn', genre:'Ação', icon:'sword', hue:'#e08a3c' },
+    { file:'Spell Craft (U) [T+Por].smc', title:'Spell Craft', genre:'Ação', icon:'sword', hue:'#c0554a' },
+    { file:'Starfox.smc', title:'Starfox', genre:'Ação sci-fi', icon:'rocket', hue:'#4a7fc0' },
+    { file:'Street Fighter 2 - The World Warrior.smc', title:'Street Fighter 2 - The World Warrior', genre:'Luta', icon:'claw', hue:'#c0a24a' },
+    { file:'Street Fighter II Turbo - Hyper Fighting (E) (V1.0) [!].smc', title:'Street Fighter II Turbo - Hyper Fighting', genre:'Luta', icon:'claw', hue:'#4ac09a' },
+    { file:'Sunset Riders.smc', title:'Sunset Riders', genre:'Ação', icon:'sword', hue:'#7a4ac0' },
+    { file:'Super Castlevania IV (U) [T+Por].smc', title:'Super Castlevania IV', genre:'Ação', icon:'sword', hue:'#c04a94' },
+    { file:'Super Mario RPG - Legend of the Seven Stars (U).smc', title:'Super Mario RPG - Legend of the Seven Stars', genre:'RPG', icon:'scroll', hue:'#4aa8c0' },
+    { file:'Super Metroid (JU) [!].smc', title:'Super Metroid', genre:'Ação sci-fi', icon:'rocket', hue:'#5ac04a' },
+    { file:'Super R-Type (U) [!].smc', title:'Super R-Type', genre:'Ação sci-fi', icon:'rocket', hue:'#c0794a' },
+    { file:'Super Street Fighter 2 - The New Challengers.smc', title:'Super Street Fighter 2 - The New Challengers', genre:'Luta', icon:'claw', hue:'#9a4a4a' },
+    { file:'Tales of Phantasia (J) [port].smc', title:'Tales of Phantasia', genre:'RPG', icon:'scroll', hue:'#4a6ac0' },
+    { file:'Tenchi Muyou! Game Hen.smc', title:'Tenchi Muyou! Game Hen', genre:'RPG', icon:'scroll', hue:'#c0704a' },
+    { file:'Terranigma (E) [T+Por].smc', title:'Terranigma', genre:'RPG', icon:'scroll', hue:'#7a9a4a' },
+    { file:'Addams Family, The - Pugsley\'s Scavenger Hunt (U).smc', title:'The Addams Family - Pugsley\'s Scavenger Hunt', genre:'Plataforma', icon:'star', hue:'#4a9a5c' },
+    { file:'The Ignition Factor.smc', title:'The Ignition Factor', genre:'Ação', icon:'sword', hue:'#c0b84a' },
+    { file:'Legend of Zelda, The - A Link to the Past (U) [T+Por].smc', title:'The Legend of Zelda - A Link to the Past', genre:'RPG', icon:'scroll', hue:'#4aa06a' },
+    { file:'The Lion King.smc', title:'The Lion King', genre:'Plataforma', icon:'star', hue:'#6a4a2a' },
+    { file:'The Lost Vikings.smc', title:'The Lost Vikings', genre:'Ação', icon:'sword', hue:'#4a9a8c' },
+    { file:'The Lost Vikings 2.smc', title:'The Lost Vikings 2', genre:'Ação', icon:'sword', hue:'#c04a4a' },
+    { file:'Magical Quest Starring Mickey Mouse, The (U) [!].smc', title:'The Magical Quest Starring Mickey Mouse', genre:'Plataforma', icon:'star', hue:'#4ac06a' },
+    { file:'Tiny Toon Adventures - Wild & Wacky Sports.smc', title:'Tiny Toon Adventures - Wild & Wacky Sports', genre:'Plataforma', icon:'star', hue:'#c0c04a' },
+    { file:'Top Racer (J).smc', title:'Top Racer', genre:'Corrida', icon:'flag', hue:'#7ac04a' },
+    { file:'True Lies.smc', title:'True Lies', genre:'Ação', icon:'sword', hue:'#4a4ac0' },
+    { file:'U.N. Squadron.smc', title:'U.N. Squadron', genre:'Ação sci-fi', icon:'rocket', hue:'#8b5cf6' },
+    { file:'Warlock.smc', title:'Warlock', genre:'Ação', icon:'sword', hue:'#e0609e' },
+    { file:'Wonder Project.smc', title:'Wonder Project J', genre:'Ação', icon:'sword', hue:'#8fc93a' },
+    { file:'Worms (E) [T+Por].smc', title:'Worms', genre:'Estratégia', icon:'bomb', hue:'#3ac9c9' },
+    { file:'X-Men - Mutant Apocalypse.smc', title:'X-Men - Mutant Apocalypse', genre:'Ação', icon:'sword', hue:'#c93ae0' },
   ];
 
   const shelf = document.getElementById('shelf');
@@ -560,6 +679,16 @@
       picker.click();
     });
     marqueeTrack.appendChild(item);
+  });
+
+  // velocidade fixa (px/segundo) — a duração se ajusta ao número de
+  // cartuchos, então o carrossel continua no mesmo ritmo mesmo se a
+  // coleção crescer.
+  const MARQUEE_SPEED = 28;
+  requestAnimationFrame(() => {
+    const distance = marqueeTrack.scrollWidth / 2;
+    const duration = Math.max(distance / MARQUEE_SPEED, 20);
+    marqueeTrack.style.animationDuration = duration + 's';
   });
 
   function shade(hex){
